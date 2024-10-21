@@ -1,0 +1,35 @@
+/* MAIN */
+.promo>img {
+    text-align: center;
+
+    width: 80%;
+    height: auto;
+}
+
+.img-prato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.img-prato>img {
+    width: 280px;
+    height: auto;
+}
+
+.img-prato>figcaption {
+    width: 80%;
+}
+
+/* FOOTER */
+.rede-sociais-img {
+    width: 40px;
+    height: 40px;
+}
+
+.rede-sociais-img-ifood {
+    width: 55px;
+    height: 40px;
+}

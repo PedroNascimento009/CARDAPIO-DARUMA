@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'noto';
+    src: url(/assets/fonts/NotoSerifJP-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'romanovsky';
+    src: url(/assets/fonts/Romanovsky-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'arima';
+    src: url(/assets/fonts/Arima-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url(/assets/fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url(/assets/fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+/* TIULOS */
+
+.restaurante>span {
+    color: #560100;
+    
+    font-family: 'noto', sans-serif;
+    font-size: 40px;
+}
+
+.restaurante>h1{
+    color: #bdbaba;
+
+    font-family: "romanovsky", sans-serif;
+    font-size: 40px;
+}
+
+.restaurante>h2 {
+    color: #bdbaba;
+
+    font-family: 'montserrat-regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.categorias>button {
+    color: #bdbaba;
+
+    font-family: 'romanovsky', sans-serif;
+}
+
+/* SUBTITULO */
+.categoria>h3 {
+    color: #bdbaba;
+
+    font-family: 'romanovsky', sans-serif;
+}
+
+.container-redes>h3 {
+    color: #bdbaba;
+
+    font-family: 'romanovsky', sans-serif;
+}
+
+#intro>h3 {
+    color: #bdbaba;
+    
+    font-family: 'romanovsky', sans-serif;
+}
+
+.prato {
+    color: #bdbaba;
+}
+
+/* PARÁGRAFO */
+#intro>p {
+    color: #bdbaba;
+}
+
+.promo>figcaption {
+    color: #bdbaba;
+}
+
+.categoria>p {
+    color: #bdbaba;
+}
+
+.img-prato>figcaption {
+    color: #bdbaba;
+}

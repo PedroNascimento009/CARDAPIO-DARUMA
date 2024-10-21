@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/cabeçalho.css">
+    <link rel="stylesheet" href="assets/styles/base.css">
+    <link rel="stylesheet" href="assets/styles/font-colors.css">
+    <link rel="stylesheet" href="assets/styles/imgs.css">
     <title>Cardapio À La Carte</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <h1>成 Daruma</h1>
-            <h2>Restaurante Japonês</h2>
+        <div class="restaurante">
+            <span>成</span>
+            <h1>DARUMA</h1>
+            <h2>RESTAURANTE JAPONÊS</h2>
         </div>
-        <hr class="borda-header">
+        <hr class="borda">
         <nav class="categorias">
             <button onclick="abrirTabs('entradas')">Entradas</button>
             <button onclick="abrirTabs('makimonos')">Makimonos</button>
@@ -34,8 +37,13 @@
     </header>
     <main>
         <section id="intro">
-            <p>Seja bem-vindo! Esse é o nosso cardapio à la carte, acesse pressionando a categoria de prato que seja
+            <p>Seja bem-vindo! Esse é o nosso cardapio à la carte, acesse pressionando a categoria de prato que deseja
                 acima.</p>
+                <h3>PROMOÇÕES:</h3>
+            <figure class="promo">
+                <img src="assets/imgs/combinado-removebg-preview.png" alt="combinado">
+                <figcaption>PROMOÇÃO 12 PEÇAS POR R$49,90</figcaption>
+            </figure>
         </section>
         <section class="categoria" id="entradas">
             <h3>Entradas:</h3>
@@ -1045,7 +1053,9 @@
 
         <section class="categoria" id="pokes">
             <h3>Pokes:</h3>
-            <p>Poke é um prato havaiano tradicional, onde aqui é personalizado ao gosto do cliente, nele vai proteina, acompanhamentos, finalizações e molhos. O nome "poke" vem do verbo havaiano que significa "cortar" ou "fatiar", referindo-se ao modo como o peixe é preparado em cubos.</p>
+            <p>Poke é um prato havaiano tradicional, onde aqui é personalizado ao gosto do cliente, nele vai proteina,
+                acompanhamentos, finalizações e molhos. O nome "poke" vem do verbo havaiano que significa "cortar" ou
+                "fatiar", referindo-se ao modo como o peixe é preparado em cubos.</p>
             <ul class="conteudo-pratos">
                 <li>
                     <h4 class="prato">Shimeji com frutos do mar</h4>
@@ -1153,7 +1163,7 @@
                 </li>
             </ul>
         </section>
-        
+
         <section class="categoria" id="porções">
             <h3>Poções:</h3>
             <ul class="conteudo-pratos">
@@ -1264,6 +1274,25 @@
             </ul>
         </section>
     </main>
+    <hr class="borda">
+    <footer>
+        <section class="container-redes">
+            <h3>Contatos do restaurante:</h3>
+            <div class="rede-sociais">
+                <a href="#"><img class="rede-sociais-img" src="assets/imgs/whatsapp.png" alt="whatsapp"></a>
+                <a href="#"><img class="rede-sociais-img" src="assets/imgs/instagram.png" alt="instagram"></a>
+                <a href="#"><img class="rede-sociais-img-ifood" src="assets/imgs/ifood.png" alt="ifood"></a>
+            </div>
+        </section>
+        <section class="container-redes">
+            <h3>Contatos do criador:</h3>
+            <div class="rede-sociais">
+                <a href="#"><img class="rede-sociais-img" src="assets/imgs/whatsapp.png" alt="whatsapp"></a>
+                <a href="#"><img class="rede-sociais-img" src="assets/imgs/instagram.png" alt="instagram"></a>
+                <a href="#"><img class="rede-sociais-img" src="assets/imgs/github.png" alt="github"></a>
+            </div>
+        </section>
+    </footer>
     <script src="assets/javascript/script.js"></script>
 </body>
 
