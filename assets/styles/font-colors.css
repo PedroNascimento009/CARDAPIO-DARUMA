@@ -1,26 +1,31 @@
 @font-face {
     font-family: 'noto';
     src: url(/assets/fonts/NotoSerifJP-Medium.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'romanovsky';
     src: url(/assets/fonts/Romanovsky-Bold.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'arima';
     src: url(/assets/fonts/Arima-Medium.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'montserrat-regular';
     src: url(/assets/fonts/Montserrat-Regular.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'montserrat-bold';
     src: url(/assets/fonts/Montserrat-Bold.ttf) format('truetype');
+    font-display: swap;
 }
 
 /* TIULOS */
