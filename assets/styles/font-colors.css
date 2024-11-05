@@ -5,26 +5,20 @@
 }
 
 @font-face {
-    font-family: 'romanovsky';
+    font-family: 'romanovsky-bold';
     src: url(../fonts/Romanovsky-Bold.ttf) format('truetype');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'arima';
-    src: url(../fonts/Arima-Medium.ttf) format('truetype');
+    font-family: 'romanovsky-regular';
+    src: url(../fonts/Romanovsky-Regular.ttf) format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'montserrat-regular';
     src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'montserrat-bold';
-    src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
     font-display: swap;
 }
 
@@ -40,7 +34,7 @@
 .restaurante>h1{
     color: #bdbaba;
 
-    font-family: "romanovsky", sans-serif;
+    font-family: "romanovsky-bold", sans-serif;
     font-size: 40px;
 }
 
@@ -55,47 +49,68 @@
 .categorias>button {
     color: #bdbaba;
 
-    font-family: 'romanovsky', sans-serif;
+    font-family: 'romanovsky-bold', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.3px;
 }
 
 /* SUBTITULO */
 .categoria>h3 {
     color: #bdbaba;
 
-    font-family: 'romanovsky', sans-serif;
+    font-family: 'romanovsky-bold', sans-serif;
 }
 
 .container-redes>h3 {
     color: #bdbaba;
 
-    font-family: 'romanovsky', sans-serif;
+    font-family: 'romanovsky-bold', sans-serif;
 }
 
 #intro>h3 {
     color: #bdbaba;
     
-    font-family: 'romanovsky', sans-serif;
+    font-family: 'romanovsky-bold', sans-serif;
+    font-size: 18px;
 }
 
 .prato {
     color: #bdbaba;
 
-    font-family: 'romanovksy', sans-serif;
+    font-family: 'romanovsky-bold', sans-serif;
+    font-size: 23px;
+}
+
+.preço {
+    color: #bdbaba;
+
+    font-family: 'romanovsky-bold', sans-serif;
+    font-size: 18px;
 }
 
 /* PARÁGRAFO */
 #intro>p {
     color: #bdbaba;
+
+    font-family: 'romanovsky-regular', sans-serif;
+    font-size: 20px;
 }
 
 .promo>figcaption {
     color: #bdbaba;
+
+    font-family: 'romanovsky-regular', sans-serif;
 }
 
 .categoria>p {
     color: #bdbaba;
+
+    font-family: 'romanovsky-regular', sans-serif;
 }
 
 .img-prato>figcaption {
     color: #bdbaba;
+
+    font-family: 'romanovsky-regular', sans-serif;
+    font-size: 13px;
 }
