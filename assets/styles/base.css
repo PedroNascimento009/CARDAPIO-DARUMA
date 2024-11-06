@@ -19,6 +19,30 @@ header>.restaurante {
     margin-top: 10px;
 }
 
+#intro-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: opacity 1s ease;
+    z-index: 10;
+    text-align: center;
+}
+
+.intro-hidden {
+    opacity: 0;
+}
+
 .borda {
     opacity: 0.7;
 }
@@ -29,12 +53,24 @@ header>.restaurante {
     justify-content: center;
     gap: 8px;
 
-    margin: 5px 0px;
+    margin: 20px 0px;
     text-align: center;
 }
 
 .categoria>p {
     margin-bottom: 20px;
+}
+
+.categoria {
+    display: none;
+}
+
+.categoria>h3,
+.categoria>p {
+    text-align: center;
+    margin: 0 auto;
+
+    max-width: 90%;
 }
 
 .categorias>button {
@@ -53,16 +89,10 @@ header>.restaurante {
     background-color: #9e401e;
 }
 
-
-.categoria {
-    display: none;
-}
-
-.categoria>h3, .categoria>p {
-    text-align: center;
-    margin: 0 auto;
-
+/* MAIN */
+main {
     max-width: 90%;
+    margin: 0 auto;
 }
 
 #intro {
@@ -74,12 +104,6 @@ header>.restaurante {
 
 #intro>p {
     margin: 20px 0px;
-}
-
-/* MAIN */
-main {
-    max-width: 90%;
-    margin: 0 auto;
 }
 
 .conteudo-pratos {
@@ -116,13 +140,46 @@ main {
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     max-width: 90%;
     margin: 0 auto;
 }
 
-footer>.restaurante {
+.container-redes {
+    margin-top: 6px;
+
+    text-align: center;
+}
+
+.rede-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 10px;
+}
+
+#intro-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    justify-content: center;
+
+    transition: opacity 1s ease;
+    z-index: 10;
+    text-align: center;
+}
+
+.intro-hidden {
+    opacity: 0;
 }

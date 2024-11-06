@@ -22,16 +22,15 @@
     font-display: swap;
 }
 
-/* TIULOS */
-
+/* LOGO */
 .restaurante>span {
     color: #560100;
-    
+
     font-family: 'noto', sans-serif;
     font-size: 40px;
 }
 
-.restaurante>h1{
+.restaurante>h1 {
     color: #bdbaba;
 
     font-family: "romanovsky-bold", sans-serif;
@@ -42,10 +41,39 @@
     color: #bdbaba;
 
     font-family: 'montserrat-regular', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
 }
 
+.container-redes>.restaurante>span {
+    color: #560100;
+
+    font-family: 'noto', sans-serif;
+    font-size: 25px;
+}
+
+.container-redes>.restaurante>h3 {
+    color: #bdbaba;
+
+    font-family: "romanovsky-bold", sans-serif;
+    font-size: 25px;
+}
+
+.container-redes>.restaurante>h4 {
+    color: #bdbaba;
+
+    font-family: 'montserrat-regular', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.criador>figcaption {
+    color: #bdbaba;
+
+    font-family: "romanovsky-bold", sans-serif;
+}
+
+/* TIULOS */
 .categorias>button {
     color: #bdbaba;
 
@@ -69,7 +97,7 @@
 
 #intro>h3 {
     color: #bdbaba;
-    
+
     font-family: 'romanovsky-bold', sans-serif;
     font-size: 18px;
 }

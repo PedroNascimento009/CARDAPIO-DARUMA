@@ -21,4 +21,17 @@ function trocarPalavra() {
         indice = 0;
     }
 }
+
+//ABERTURA
 setInterval(trocarPalavra, 2000);
+
+function ocultarIntro() {
+    const intro = document.getElementById('intro-1');
+    intro.classList.add('intro-hidden');
+
+    setTimeout(() => {
+        intro.style.display = 'none';
+        document.getElementById('conteudo').style.display = 'block';
+    }, 1000);
+}
+setTimeout(ocultarIntro, 2000);
