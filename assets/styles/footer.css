@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container-redes {
+    margin-top: 6px;
+
+    text-align: center;
+}
+
+.rede-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 10px;
+}

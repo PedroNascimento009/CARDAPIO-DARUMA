@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(circle, #2b2b2b, #000000);
+}
+
+header {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* INTRODUÇÃO */
+#intro-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: opacity 1s ease;
+    z-index: 10;
+    text-align: center;
+}
+
+.intro-hidden {
+    opacity: 0;
+}
+
+/* LOGO */
+header>.restaurante {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.borda {
+    opacity: 0.7;
+}
