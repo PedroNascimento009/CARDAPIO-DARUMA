@@ -7,6 +7,7 @@ footer {
     margin: 0 auto;
 }
 
+/* REDES SOCIAIS */
 .container-redes {
     margin-top: 6px;
 
@@ -19,4 +20,8 @@ footer {
     gap: 10px;
 
     margin-top: 10px;
+}
+
+.criador {
+    align-self: end;
 }
