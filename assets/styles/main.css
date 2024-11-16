@@ -95,7 +95,7 @@ main {
     padding: 10px 0px;
     margin-bottom: 13px;
 
-    background:radial-gradient(circle, #560100 70%, #420604);
+    background:radial-gradient(circle, #560100 40%, #420604);
 }
 
 .conteudo-pratos>li:last-child {
